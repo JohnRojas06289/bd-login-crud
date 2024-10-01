@@ -14,7 +14,7 @@ app.use(bodyParser.json()); // Middleware para analizar las solicitudes con cuer
 const db = mysql.createConnection({
   host: 'localhost',          
   user: 'root',           
-  password: 'santafe2005',   
+  password: 'admin',   
   database: 'inmobiliaria1'        
 });
 
